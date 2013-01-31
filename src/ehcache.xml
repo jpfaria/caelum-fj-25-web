@@ -1,0 +1,16 @@
+<ehcache>
+
+	<diskStore path="java.io.tmpdir" />
+	
+	<defaultCache
+		maxElementsInMemory="40"
+		eternal="false"
+		overflowToDisk="false" />
+	
+	<cache name="br.com.caelum.financas.modelo.Conta"
+		maxElementsInMemory="40"
+		eternal="false"
+		overflowToDisk="false" />
+		
+	
+</ehcache>
